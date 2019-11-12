@@ -42,6 +42,7 @@ Route::group(['prefix' => 'v1', 'namespace' => 'Api'], function () {
         Route::get('toggle-favourite', 'PostsController@toggle_favourite');
         Route::post('notifications-settings', 'NotificationsController@notificationSettings');
         Route::get('notification-list','NotificationsController@notificationList');
+        //
     });
 
 });
